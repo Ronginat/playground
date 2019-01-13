@@ -60,7 +60,7 @@ When player wants to 'use' an element, the client offers him options according t
 	- give this element a rating
 	- watch the average rating from all of the playground's players.<br />
 The score calculated from proximity of the current rating to the average 
-(the formula is written [here](Server/src/main/java/ratingplayground/plugins/RatingPlugin.java),
+(the formula is written [here](Server/src/main/java/ratingplayground/plugins/RatingPlugin.java) in <em>calcPoints</em> function),
 so players are only allowed to **watch the average if they had already rated it**,
 and are allowed to give **one rating per element**.
 - The other type we support is a MessageBoard, that players can post messages and view them by pages.
@@ -71,25 +71,25 @@ This was a mandatory type for all projects in the course.
 ### Server
 In order to run the project with eclipse, please follow these steps:
 
-1. Install [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
-and [eclipse java EE](https://www.eclipse.org/downloads/packages/). 
-Configure the 3 packages as sources for the project:
+1. Install [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), 
+[eclipse java EE](https://www.eclipse.org/downloads/packages/) and open eclipse at the root directory.
+2. Configure the 3 packages as sources for the project:
 	- src/main/java
 	- src/main/resources
 	- src/test/java
 	
-###### jars:
-2. Copy all of our Spring jars [from web.db.lib](jars/web.db.lib.zip), or download the newer versions.
+###### [jars](jars/):
+3. Copy all of our Spring jars [from web.db.lib](jars/web.db.lib.zip), or download the newer versions.
 
-3. You should have [JavaMail API](https://www.oracle.com/technetwork/java/javamail/index-138643.html)
+4. You should have [JavaMail API](https://www.oracle.com/technetwork/java/javamail/index-138643.html)
 and [Java Activation Framework](https://www.oracle.com/technetwork/java/jaf11-139815.html) (JAF) installed on your machine:
 	- Download the latest versions from the official oracle site
 	- Or add both jars from the [zip file](jars/mail.lib.zip) in this repository.
 
 
-4. Add the mentioned jars to your build path as external jars in eclipse.
+5. Add the mentioned jars to your build path as external jars in eclipse.
 
-5. Run the project as Java Application.
+6. Run the project as Java Application.
 You will find our server running at PORT 8084.
 
 ### Client
@@ -100,7 +100,7 @@ Make sure that node and npm added to [environment PATH](https://www.java.com/en/
 currently defined as localhost at port 8084. Update it if necessary.
 4. Open cmd and change directory to the local root directory.
 5. Type 'npm install' and wait for the required packages to be installed.
-6. When installation finished, write 'npm start'.
+6. When installation finished, type 'npm start'.
 
 The client should be opened automatically in your default browser.<br />
 In any case, it will be available at your localhost, port 3000.
@@ -121,16 +121,14 @@ In any case, it will be available at your localhost, port 3000.
 * Junit
 * JavaMail API
 * Java Activation Framework (JAF)
-* Git
-* BitBucket
-* Eclipse
-* Trello
-* ReactJS
-	* axios 
-* NodeJS
-* VSCode
-
-
-
-
-	
+* Development Tools
+	* Git
+		* Bitbucket
+	* Eclipse
+	* VSCode
+	* Trello
+* Platforms:
+	* Java8
+	* ReactJS
+		* axios 
+	* NodeJS
