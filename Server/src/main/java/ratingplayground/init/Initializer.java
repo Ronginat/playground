@@ -65,7 +65,7 @@ public class Initializer {
 				null, "book", attribues, playground, "manager@walla.com"));*/
 		
 		// Add a movie
-		attribues.put("image", "https://resizing.flixster.com/R5tv2ujXOwJ7R5l4mF5Q8T8Ku0g=/300x300/v1.aDs2NTk3O2o7MTc5MTA7MTIwMDs0OTA7NzAw");
+		attribues.put("image", "https://resizing.flixster.com/GeCymI5724T-lDfHZO_K8X0Nk4A=/300x300/v1.aDs2NTk3O2o7MTc5NTU7MTIwMDs0OTA7NzAw");
 		attribues.put("info", "https://www.rottentomatoes.com/m/the_lord_of_the_rings_the_return_of_the_king/");
 		this.elementService.addNewElement(playground, "manager@walla.com", 
 				new ElementEntity(playground, null, 0.0, 0.0, "The Return of the King", new Date(),

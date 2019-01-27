@@ -76,7 +76,7 @@ class UpdateElement extends Component {
           <input type="date" placeholder="Enter expiration Date" name="expirationDate" required defaultValue={this.state.expirationDate} onChange={event => this.setState({ expirationDate: event.target.value })} />
           <div className="typeRadios">
             <label>Type:</label>
-            <h6>Message Board</h6>
+            <h6>MessageBoard</h6>
             <input className="radio" type="radio" value="MessageBoard"
               checked={this.state.type === "MessageBoard"}
               onChange={this.handleOptionChange} />

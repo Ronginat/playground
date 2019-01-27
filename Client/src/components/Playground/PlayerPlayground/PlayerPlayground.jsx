@@ -59,7 +59,7 @@ class PlayerPlayground extends Component {
     }
     else {
       component = this.props.elements.map(e => {
-        if (e.type === 'Message Board') {
+        if (e.type === 'MessageBoard') {
           return (
             <div style={{ display: 'inline-block' }} key={e.id} onClick={() => this.messageBoardAction(e)}>
               <MessageBoardElement key={e.id} element={e} />
