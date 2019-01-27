@@ -1,3 +1,14 @@
+## Screenshots
+<img width="300" hspace="5" title="login" src="screenshots/login.jpg"><img 
+width="300" hspace="5" title="All elements #0" src="screenshots/all_element_page0.jpg"><img 
+width="300" hspace="5" title="All elements #1" src="screenshots/all_element_page1.jpg"><img 
+width="300" hspace="5" title="Search element by type movie" src="screenshots/getElementByType_movie.jpg"><img 
+width="300" hspace="5" title="rating activity" src="screenshots/player_rating_activity.jpg"><img 
+width="300" hspace="5" title="rating activity result" src="screenshots/player_rating_activity_result.jpg"><img 
+width="300" hspace="5" title="post message activity" src="screenshots/player_post_message_activity.jpg"><img 
+width="300" hspace="5" title="update element details" src="screenshots/manager_update_element.jpg">
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

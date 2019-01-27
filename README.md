@@ -93,6 +93,7 @@ and [Java Activation Framework](https://www.oracle.com/technetwork/java/jaf11-13
 You will find our server running at PORT 8084.
 
 ### Client
+##### [Screenshots](Client/README.md)
 1. Install [node with npm](https://nodejs.org/en/download/).
 Make sure that node and npm added to [environment PATH](https://www.java.com/en/download/help/path.xml).
 2. Download or clone our [client](Client/) code.
